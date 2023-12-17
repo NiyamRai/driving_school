@@ -9,6 +9,10 @@ import rating from "../img/rating.svg";
 import OurServices from "../Components/OurServices";
 import Numbers from "../Components/Numbers";
 import Recomended from "../Components/Recomended";
+import Service from "../Components/Service";
+import Programs from "../Components/Programs";
+import Options from "../Components/Options";
+import Test from "../Components/Test";
 
 const Home = () => {
   return (
@@ -40,8 +44,18 @@ const Home = () => {
         <div className="w-[82%] m-auto  mb-[125px]">
           <OurServices />
         </div>
+
         <Numbers />
+        <div className="mb-[125px]"></div>
         <Recomended />
+        <div className="mb-[190px]"></div>
+        <Service />
+        <div className="mb-[75px]"></div>
+        <Programs />
+        <div className="mb-[75px]"></div>
+        <Options />
+        <div className="mb-[20px]"></div>
+        <Test />
       </div>
     </div>
   );
